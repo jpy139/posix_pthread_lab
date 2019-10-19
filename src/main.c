@@ -1,13 +1,18 @@
 /*
  * @Date: 2019-10-19 11:23:52
  * @LastEditors: Peiyuan
- * @LastEditTime: 2019-10-19 20:31:01
+ * @LastEditTime: 2019-10-19 20:38:42
  */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <pthread.h>
 
+/**
+ * @description: 
+ * @param {type} 
+ * @return: 
+ */
 void *th_fn(void *arg) 
 { 
     printf("thread 1 entry!\n");
