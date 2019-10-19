@@ -1,14 +1,14 @@
 /*
  * @Date: 2019-10-19 11:23:52
  * @LastEditors: Peiyuan
- * @LastEditTime: 2019-10-19 11:30:25
+ * @LastEditTime: 2019-10-19 20:31:01
  */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <pthread.h>
 
-void *th_fn(void *arg)
+void *th_fn(void *arg) 
 { 
     printf("thread 1 entry!\n");
 
